@@ -1,13 +1,16 @@
+/* Universal Properties */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Setting a background for the page */
 body {
   background-color: #d9dcd6;
 }
 
+/* Styling the page header */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -21,10 +24,12 @@ body {
   font-size: 48px;
 }
 
-.header h1 .seo {
+mark {
   color: #d9dcd6;
+  background-color: inherit;
 }
 
+/* Styling the navigation bar inside the header*/
 .header navbar {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,22 +38,27 @@ body {
   font-size: 20px;
 }
 
-.header navbar ul {
-  list-style-type: none;
-}
-
 .header navbar ul li {
+  list-style-type: none;
   display: inline-block;
   margin-left: 25px;
 }
-
+/* Styling hyperlinks */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Default properties for all paragraphs inside the page*/
 p {
   font-size: 16px;
+}
+
+/* Styling the main sections of the body */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .hero {
@@ -59,23 +69,6 @@ p {
   background-size: cover;
   background-position: center;
 }
-
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
-
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -87,55 +80,8 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Section Elements Styling in the Main Body */
+.content-section {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -144,51 +90,47 @@ p {
   color: #ffffff;
 }
 
-.online-reputation-management {
+/* Styling of image elements in the content section */
+.content-section img {
+  max-height: 200px;
+}
+
+/* Styling of header text in the content section */
+.content-section h2 {
   margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
+  font-size: 36px;
+}
+
+/* Styling the images inside the content section */
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* Styling of the side bar articles */
+.sidebar-article {
+  margin-bottom: 32px;
   color: #ffffff;
 }
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
+/* Styling the sidebar header text */
+.sidebar-article h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Styling the sidebar image */
+.sidebar-article img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
-.search-engine-optimization img {
-  max-height: 200px;
-}
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
+/* Styling of the page footer */
 .footer {
   padding: 30px;
   clear: both;
@@ -196,7 +138,7 @@ p {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
-.footer h2 {
+/* Styling the footer header text */
+.footer h4 {
   font-size: 20px;
 }
