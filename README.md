@@ -1,16 +1,16 @@
-# first-week-assignment
+# Horiseon Social Solution Services
 
-# first commit:
+# First Commit:
 
-• added README.md file
+• Added README.md file
 
-# second commit:
+# Second Commit:
 
-• added the source code from the assignment
+• Added the source code from the assignment
 
 # Third Commit:
 
-•div element containing navigation bar changed to a navbar element and updated the associated CSS tags
+• div element containing navigation bar changed to a navbar element and updated the associated CSS tags
 • Search Engine Optimisation in-page link was not functioning. Element was classified under class instead of id.
 
 # Fourth Commit:
@@ -34,3 +34,8 @@
 • Changed the header text in the footer to h4 tag to match the sequence of the page.
 • Updated the h4 css props for the footer header text.
 • Re-sequenced the css file to match the html sequence.
+
+# Sixth Commit:
+
+• Webpage link: https://forester93.github.io/horiseon-solution-services/
+• Gave repo a unique name.
